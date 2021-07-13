@@ -1,0 +1,119 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* font family */
+/* font-family: 'Poppins', sans-serif; */
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    padding: 70px 140px;
+}
+.primary-btn{
+    padding: 10px 24px 10px 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    border: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.primary-btn:hover{
+    background-color: #3DBAFD;
+    color: white;
+}
+
+/* Top bar style */
+#top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D25A0;
+    padding: 86px 140px;
+}
+#top-bar h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    line-height: 80px;
+    margin:0 0 27px 0;
+}
+#top-bar .top-bar-left a i{
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+#top-bar .top-bar-right img{
+    width: 556px;
+    transition: all 0.5s ease;
+}
+#top-bar:hover .top-bar-right img{
+    transform: scale(1.1);
+}
+/* players style */
+#players{
+    background-color: white;
+}
+#players .players-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+#players .player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);;
+}
+#players .player-img img{
+    width: 100%;
+}
+#players .player-info h3{
+    margin: 6px 0 6px 0;
+    color: #18191F;
+    font-weight: 700;
+    font-size: 28px;
+}
+#players .player-info p{
+    margin: 0 0 15px 0;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* hightlights style */
+#hightlights .hightlights-inner{
+    display: flex;
+    align-items: center;
+}
+#hightlights .hightlight-left h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #0A0826;
+    line-height: 60px;
+    margin:0 0 8px 0;
+}
+#hightlights .hightlight-left p{
+    margin: 0 0 24px 0;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+#hightlights .hightlight-left a i{
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+#hightlights .hightlight-right{
+    padding-left: 65px;
+}
+#hightlights .hightlight-right img{
+    width: 530px;
+}
