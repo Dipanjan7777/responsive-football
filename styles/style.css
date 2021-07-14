@@ -238,4 +238,34 @@ ul li{
     #players .player{
         /* margin: 0 20px; */
     }
+    #hightlights .hightlights-inner{
+        display: block;
+    }
+    #hightlights .hightlight-right{
+        width: 100%;
+        padding: 0;
+    }
+    .hightlight-left{
+        padding: 10% 20px;
+    }
+    #hightlights .hightlight-right img{
+        width: 100%;
+    }
+    #host-cities .host-city-inner{
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+    }
+    #sponsors .sponsors-img{
+        display: block;
+        text-align: center;
+    }
+    #sponsors .sponsors-img a{
+        display: block;
+    }
+    #footer .footer-img img{
+        width: 90%;
+    }
+    #hightlights .container{
+        padding-top: 0;
+    }
 }
