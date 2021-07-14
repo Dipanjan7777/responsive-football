@@ -31,6 +31,9 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+ul li{
+    list-style: none;
+}
 /* Top bar style */
 #top-bar{
     display: flex;
@@ -140,7 +143,6 @@ a{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-
 }
 #host-cities .host-city{
     background-color: white;
@@ -160,7 +162,7 @@ a{
 }
 /* sponsors style */
 #sponsors{
-    background-color: white;
+    background-color: #EEEEEE;
 }
 #sponsors .section-title h2{
     text-align: center;
@@ -168,7 +170,6 @@ a{
     font-size: 30px;
     text-transform: capitalize;
     font-weight: 700;
-
 }
 #sponsors .sponsors-img{
     display: flex;
@@ -176,4 +177,60 @@ a{
 }
 #sponsors .sponsors-img a img{
     padding: 5px 10px;
+}
+/* footer style */
+#footer{
+    background-color: white;
+}
+#footer .footer-img{
+    text-align: center;
+}
+#footer .footer-img img{
+    width: 484px;
+}
+#footer .footer-social ul{
+    display: flex;
+    justify-content: center;
+}
+#footer .footer-social ul li{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #E7E7E8;
+    margin-right: 14px;
+    text-align: center;
+}
+#footer .footer-social ul li a{
+    font-size: 14px;
+    color: #969BAB;
+}
+#footer .footer-copyright{
+    text-align: center;
+}
+#footer .footer-copyright p{
+    font-size: 18px;
+    color: black;
+    font-weight: 400px;
+}
+
+
+
+/* media queries (mobile-devices) */
+@media only screen and (max-width:688px){
+    #top-bar{
+        display: block;
+        padding: 20px;
+    }
+    #top-bar .top-bar-right img {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .container{
+        width: 100%;
+        padding: 70px 20px;
+    }
+    #players .players-inner{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
